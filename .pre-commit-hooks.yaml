@@ -1,0 +1,9 @@
+- id: chrome-extension-increment-version
+  name: increment chrome extension version
+  description: This hook increments the version in the manifest.json of your chrome extension.
+  entry: chrome-extension-increment-version.sh
+  language: script
+  types: [text]
+  pass_filenames: false
+  always_run: true
+  
